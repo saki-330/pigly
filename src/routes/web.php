@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WeightLogsController;
+use App\Http\Controllers\WeightLogController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Auth\RegisteredUserController;
+use Illuminate\Auth\Events\Registered;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +23,4 @@ Route::get('/', function () {
 Route::middleware('auth')->group(function() {
     Route::get('/weight_logs', [AuthController::class, 'index']);
 });
+Route::post('/resister', [RegisteredUserController::class, 'store']);

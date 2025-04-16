@@ -12,11 +12,11 @@
 <body>
     <div class="login-form__content">
         <div class="login-form__heading">
-            <h1 class="main-title">PigLy</h1>
+            <h1 class="main-title">PiGLy</h1>
             <h2 class="sub-title">新規会員登録</h2>
             <p class="menu-title">STEP1 アカウント情報の登録</p>
         </div>
-        <form class="form" action="/register/step1" method="post">
+        <form class="form" action="/register" method="post">
             @csrf
             <div class="form__group">
                 <div class="form__group-title">

@@ -12,7 +12,7 @@
 <body>
     <div class="login-form__content">
         <div class="login-form__heading">
-            <h1 class="main-title">PigLy</h1>
+            <h1 class="main-title">PiGLy</h1>
             <p class="sub-title">ログイン</p>
         </div>
         <form class="form" action="/login" method="post">
@@ -52,7 +52,7 @@
             </div>
         </form>
         <div class="register__link">
-            <a class="register__button-submit" href="/register/step1">アカウント作成はこちら</a>
+            <a class="register__button-submit" href="/register">アカウント作成はこちら</a>
         </div>
     </div>
 </body>
